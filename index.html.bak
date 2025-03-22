@@ -7,8 +7,8 @@
 	<meta name="google-site-verification" content="GxaFv2GEAd_nIt2RJk2O1uJ6vcNiCshwywxJC2v2kQE" />
 	<meta name="msvalidate.01" content="67B155C505E04C672096FC5B5891EF73" />
 	<meta name="description"
-		content="吴祥楠的个人主页 | Xiangnan Wu's Personal Homepage">
-	<meta name="keywords" content="xiangnan wu, Xiangnan Wu, xiangnan, 吴祥楠">
+		content="Here is Xiangnan Wu's personal homepage, including CV, papers, interests and so on.">
+	<meta name="keywords" content="xiangnan wu, Xiangnan Wu, xiangnan, 吴相南">
 	<link rel="stylesheet" type="text/css" media="screen and (max-device-width:400px)" href="tinyScreen.css" />
 	<link rel="stylesheet" type="text/css" media="screen and (min-width: 400px)and (max-device-width: 600px)"
 		href="smallScreen.css" />
@@ -20,8 +20,8 @@
 	<!-- <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" > -->
 	<!-- <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled> -->
 	<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.2/css/academicons.min.css" integrity="sha512-KlJCpRsLf+KKu2VQa5vmRuClRFjxc5lXO03ixZt82HZUk41+1I0bD8KBSA0fY290ayMfWYI9udIqeOWSu1/uZg==" crossorigin="anonymous" media="print" onload="this.media='all'"> -->
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons/css/academicons.min.css">
+	<link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+	<!-- <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/6.5.1/css/font-awesome.css"> -->
 	<!-- <link rel="apple-touch-icon" sizes="57x57" href="icon/apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="icon/apple-icon-60x60.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="icon/apple-icon-72x72.png">
@@ -41,11 +41,12 @@
 	<link rel="icon" type="image/png" sizes="192x192" href="assets/icon/android-chrome-192x192.png">
 	<link rel="icon" type="image/png" sizes="512x512" href="assets/icon/android-chrome-512x512.png">
 	<link rel="manifest" href="icon/manifest.json">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons/css/academicons.min.css">
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="assets/icon/favicon-32x32.pngg">
 	<meta name="theme-color" content="#ffffff">
 	<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
-	<title>吴祥楠 | Xiangnan Wu</title>
+	<title>Xiangnan Wu | Homepage</title>
 	<style type="text/css">
 		h1 {
 			text-align: center;
@@ -501,13 +502,14 @@
 	</script>
 	<nav>
 		<b>
-			<font size="5"><a href="https://xiangnanwu.github.io" target="_self">Xiangnan Wu (<font face="宋体">吴祥楠</font>)</a></font>
+			<font size="5"><a href="https://xiangnanwu.github.io" target="_self">Xiangnan Wu (<font face="宋体">吴相南</font>)</a></font>
 		</b>
 		<font size="5"><a href="#publications" target="_self">Publications</a></font>
 		&emsp;
 		<font size="5"><a href="#awards" target="_self">Awards</a></font>
-		&emsp;
-		<font size="5"><a href="CV_ZH.pdf" target="_self">CV (PDF)</a></font>
+		<!-- <a href="#">Talks</a> -->
+		<!-- <a href="#">Misc</a> -->
+		<!-- <font size="5"><a href="https://xnhyacinth.github.io/CV.pdf" target="_self">CV (PDF)</a></font> -->
 	</nav>
 	<!-- <hr /> -->
 	<div class="divider"></div>
@@ -524,96 +526,160 @@
 			<h2>
 				<font face="Roboto" size=+3>Xiangnan Wu</font>&emsp;
 				<b>
-					<font face="宋体" size=+3>吴祥楠</font>
+					<font face="宋体" size=+3>吴相南</font>
 				</b>
 			</h2>
 			<p>
 				<font size=+1>
-					<font size=+2 face="Georgia">👨‍💻 B.Eng. Student in Artificial Intelligence, focusing on MLLM 🎓</font><br />
-					<font size=+1>&#x1F30F</font> <b><a href="https://www.ustb.edu.cn/" target="_self">
-							<font face="Georgia">University of Science and Technology Beijing</font>
+					<font size=+2 face="Georgia">👨‍💻 M.Eng. NLPer @ <a href="https://nlpr.ia.ac.cn/cn/index.html"
+							target="_self">NLPR</a>, CASIA focusing on LLM 🎓</font><br />
+					<font size=+1>&#x1F30F</font> <b><a href="http://www.ia.cas.cn/" target="_self">
+							<font face="Georgia">Institute of
+								Automation, Chinese Academy of Sciences</font>
 						</a></b>
 					<font face="Georgia">, Beijing, China</font>
 				</font>
 			</p>
 			<p style="margin-top: -0.4cm; margin-bottom: 0.2cm;">
 				<font size=+1>
-					<font size=+2>&#x2709</font> <i><b><a href="mailto:xiangnanwu.cs@gmail.com">
-								<font size=+1 face="Georgia">xiangnanwu.cs@gmail.com</font></b></i></a>
+					<font size=+2>&#x2709</font> <i><b><a href="mailto:xiangnanwu@email.com">
+								<font size=+1 face="Georgia">xiangnanwu@email.com</font></b></i></a>
 				</font>
 			</p>
 
-			<!-- X/Twitter -->
-			<div style="display: inline-block; margin-top:0%; vertical-align: middle;">
-				<a href="https://x.com/Xiangnan_cs" target="_self">
-					<font size=4><i class="bi bi-twitter-x" style="font-size: 2.5rem; vertical-align: middle;"></i></font>
+			<div style="display: inline-block; margin-top:0%">
+				<a href="assets/CV.pdf" target="_self">
+					<!-- <font size=7><i class="fa fa-user-circle" aria-hidden="true"></i></font> -->
+					<font size=4><i class="ai ai-cv ai-3x"></i></font>
 				</a>
 			</div>
 			&emsp;
-			
-			<!-- CV -->
-			<div style="display: inline-block; margin-top:0%; vertical-align: middle;">
-				<a href="CV_ZH.pdf" target="_self">
-					<font size=4><i class="ai ai-cv ai-3x" style="vertical-align: middle;"></i></font>
+			<!-- Google Scholar -->
+			<div style="display: inline-block; margin-top:0%">
+				<a href="https://scholar.google.com.hk/citations?user=sRcWOKUAAAAJ&hl=zh-CN" target="_self">
+					<font size=4><i class="ai ai-google-scholar ai-3x"></i></font>
+				</a>
+			</div>
+			<!-- <div style="display: inline-block; margin-right:0.0cm"">
+					<a href=" https://scholar.google.com.hk/citations?user=sRcWOKUAAAAJ&hl=zh-CN" target="_self">
+					<img src="assets/img/google-scholar-icon.png" alt="Google Scholar" title="Google Scholar" width="40px" />
+
+					</a>
+				</div> -->
+			&emsp;
+			<!-- Semantic Scholar -->
+			<div style="display: inline-block; margin-top:0%">
+				<a href="https://www.semanticscholar.org/author/Huanxuan-Liao/2232817310" target="_self">
+					<font size=4><i class="ai ai-semantic-scholar ai-3x"></i></font>
+				</a>
+			</div>
+			<!-- <div class="cropped" style="display: inline-block;">
+					<a href=" https://www.semanticscholar.org/author/Huanxuan-Liao/2232817310" target="_self">
+						<img src="assets/img/semantic-scholar-icon.png" style="position:relative;top: 20px;"
+							alt="Semantic Scholar" title="Semantic Scholar" width="220px" />
+					</a>
+				</div> -->
+			&emsp;
+			<!-- DBLP -->
+			<div style="display: inline-block; margin-top:0%">
+				<a href="https://dblp.org/pid/355/1072.html" target="_self">
+					<font size=4><i class="ai ai-dblp ai-3x"></i></font>
 				</a>
 			</div>
 			&emsp;
+
+			<!-- Openreview -->
+			<div style="display: inline-block; margin-top:0%">
+				<a href="https://openreview.net/profile?id=~Huanxuan_Liao1" target="_self">
+					<font size=4><i class="ai ai-academia ai-3x"></i></font>
+				</a>
+			</div>
+			&emsp;
+			<!-- Mail -->
+			<!-- <div style="display: inline-block; margin-bottom:0.0cm">
+					<a href="mailto:huanxuanliao@gmail.com" target="_self">
+						<font size=7><i class="fa fa-envelope" aria-hidden="true"></i>
+						</font>
+					</a>
+				</div>
+				&emsp; -->
 			<!-- GitHub -->
-			<div style="display: inline-block; margin-bottom:0.0cm; vertical-align: middle;">
-				<a href="https://github.com/Xiangnan-Wu" target="_self">
-					<font size=4><i class="bi bi-github" style="font-size: 2.5rem; vertical-align: middle;"></i></font>
+			<div style="display: inline-block; margin-bottom:0.0cm">
+				<a href="https://github.com/xiangnanwu" target="_self">
+					<font size=4><i class="fa fa-github fa-3x" class="dy" aria-hidden="true"></i>
+					</font>
+				</a>
+			</div>
+			<!-- <div style="display: inline-block; margin-right:0.0cm">
+					<a href="https://github.com/Xnhyacinth" target="_self">
+						<img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg"
+							alt="Github" title="Github" width="48px" />
+					</a>
+				</div> -->
+			&emsp;
+			<!-- twitter -->
+			<div style="display: inline-block; margin-top:0%">
+				<a href="https://twitter.com/xn_hyacinth" target="_self">
+					<font size=4><i aria-hidden="true" class="fa fa-twitter fa-3x"></i></font>
 				</a>
 			</div>
 			&emsp;
+			<!-- twitter -->
+			<div style="display: inline-block; margin-top:0%">
+				<a href="https://www.linkedin.com/in/huanxuan-liao-09ab8b341/" target="_self">
+					<font size=4><i aria-hidden="true" class="fa fa-linkedin-square fa-3x"></i>
+				</a>
+			</div>
 		</td>
 		</td>
 		</tr>
 	</table>
 	<br />
 	<div style="margin-top: -0.6cm">
-		<h2 id="biography">
+		<h2>
 			<b>
 				<font face="Roboto" size=+3>📝 Biography</font>
 			</b>
 		</h2>
+		<!-- <hr /> -->
 		<div class="divide"></div>
 		<div class="app" style="margin-top: -0.0em">
 			<p>
-				<font size="4" face="Georgia">
-					I am a junior undergraduate student in the Artificial Intelligence (Excellence Program) at the University of Science and Technology Beijing (USTB), advised by Prof. Xiaojuan Ban.
+				<font size="4.5" face="Georgia">
+					I'm a graduate student at the University of Science and Technology Beijing
+					(USTB).
 					<br><br>
-					Since September 2024, I have been conducting research as an intern at Chinese Academy of Sciences Institute of Automation (CASIA), under the supervision of <a href="https://heshizhu.github.io/" target="_blank">Prof. Shizhu He</a>.
-					<br><br>
-					My research interests include <b>LLM Reasoning</b>, <b>Multimodal Model Reasoning</b>, <b>Model Compression</b>, and <b>Inference Acceleration</b>.
-					<br><br>
-					Currently, I am seeking MPhil/PhD positions starting in 2026. If you are interested, please feel free to contact me.
+					My research interests lie at <b>
+						<font face="Georgia">Large Language Model</font>
+					</b> and <b>
+						<font face="Georgia">Multimodal Learning</font>
+					</b>. 
 				</font>
 			</p>
 		</div>
 		<div class="app" style="margin-top: -1.2em">
 			<div style="float:left;width:50%;">
-				<h2 id="interests"><b>
+				<h2><b>
 						<font face="Roboto" size=+2>📚 Interests</font>
 					</b></h2>
 				<p>
 					<font size="4" face="Georgia">
-						&emsp;&emsp;LLM Reasoning
+						&emsp;&emsp;<i class="fa fa-file-text-o"></i>
+						LLM Reasoning
 						<br><br>
-						&emsp;&emsp;Multimodal Model Reasoning
-						<br><br>
-						&emsp;&emsp;Model Compression
-						<br><br>
-						&emsp;&emsp;Inference Acceleration
+						&emsp;&emsp;<i class="fa fa-file-text-o"></i>
+						Multimodal Large Language Models (MLLM)
 					</font>
 				</p>
 			</div>
 			<div style="float:left;width:50%;">
-				<h2 id="education">
+				<h2>
 					<font face="Roboto" size=+2>📖 Education</font>
 				</h2>
 				<p>
 					<font size="4" face="Georgia">
-						&emsp;&emsp;B.Eng. in Artificial Intelligence, 2022-2026
+						&emsp;&emsp;<i class="fa fa-graduation-cap"></i>
+						B.Eng. in Computer Science, 2020-2024
 						<br>
 						<font size="3">&emsp;&emsp;&emsp;&emsp;</font>
 						<font size="4" color="a9a9ae">University of Science and Technology Beijing, China</font>
@@ -629,7 +695,7 @@
 	&nbsp;&nbsp;&nbsp;&nbsp;
 	<br />
 
-	<div style="margin-top: -1em; clear: both;">
+	<div style="margin-top: -1em;">
 		<h2 id="publications">
 			<b>
 				<font face="Roboto" size=+3>📝 Publications</font>
@@ -637,11 +703,7 @@
 		</h2>
 		<div class="divide"></div>
 		<p>
-			<font size="4" face="Georgia">
-				<ul style="list-style-type: disc; margin-left: 20px;">
-					<li>Coming soon...😆</li>
-				</ul>
-			</font>
+			<font size="4.5" face="Georgia">暂无发表论文。</font>
 		</p>
 	</div>
 
@@ -657,41 +719,14 @@
 		</h2>
 		<div class="divide"></div>
 		<p>
-			<font size="4" face="Georgia">
-				<ul style="list-style-type: disc; margin-left: 20px;">
-					<li><b>National Scholarship </b> (Top 0.2% in China), 2024</li>
-					<li><b>Beijing Municipal Outstanding Student</b> (Top 1% in USTB), 2024</li>
-					
-				</ul>
-			</font>
-		</p>
-	</div>
-
-	<br />
-	&nbsp;&nbsp;&nbsp;&nbsp;
-	<br />
-
-	<div style="margin-top: -1em;">
-		<h2 id="competitions">
-			<b>
-				<font face="Roboto" size=+3>🏅 Competitions</font>
-			</b>
-		</h2>
-		<div class="divide"></div>
-		<p>
-			<font size="4" face="Georgia">
-				<ul style="list-style-type: disc; margin-left: 20px;">
-					<li><b>National Electronic Design Competition</b> (Second Prize, Beijing), 2024</li>
-					<li><b>National Mathematical Modeling Competition</b> (Second Prize, Beijing), 2024</li>
-				</ul>
-			</font>
+			<font size="4.5" face="Georgia">暂无获奖记录。</font>
 		</p>
 	</div>
 
 	<br />
 	<br />
 	<div class="app" style="margin-top:0.0em; text-align: center;">
-		<p>Copyright&copy; 2024 Xiangnan Wu(<font face="宋体">吴祥楠</font>).</p>
+		<p>Copyright&copy; 2024 Xiangnan Wu(<font face="宋体">吴相南</font>).</p>
 	</div>
 	<br />
 
